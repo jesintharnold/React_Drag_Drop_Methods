@@ -1,0 +1,35 @@
+.whole{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.group{
+   display:grid;
+    grid-template-columns:repeat(1,300px);
+    gap:0.5rem;
+    width: auto;
+    height: 100%;
+    padding:0.5rem;
+    align-items: center;
+    border:2px solid white;
+    margin:15px;
+    border-radius:15px;
+
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    color: #282c34;
+    font-weight: bold;
+    border:2px solid black;
+
+}
